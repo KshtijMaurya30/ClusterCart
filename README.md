@@ -186,17 +186,3 @@ The complete machine learning workflow follows these steps:
 15. Cluster Visualization
 16. Customer Segmentation Analysis
 
-## 7. 🧹 Data Preprocessing
-
-Data preprocessing prepares the raw dataset for machine learning.
-
-### Step 1: Data Loading
-
-The dataset is loaded using Pandas.
-
-```python
-import pandas as pd
-import matplotlib.pyplot as plt
-import seaborn as sns
-
-df = pd.read_csv("smartcart_customers.csv")
